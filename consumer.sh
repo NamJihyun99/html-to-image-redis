@@ -23,7 +23,7 @@ while :; do
       --disable-javascript \
       --width 860 \
       --height 700 \
-      --quality 100 \
+      --disable-smart-width \
       "$URL" "$OUTPUT_PATH"
 
     EXIT_CODE=$?
